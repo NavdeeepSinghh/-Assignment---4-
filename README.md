@@ -6,27 +6,21 @@ The distribution is learned **purely from data samples**, without assuming **any
 
 ---
 
-## 🔢 Transformation Parameters \((a_r, b_r)\)
+## 🔢 Transformation Parameters ((a_r, b_r))
 
-The transformation applied to the NO₂ concentration data \(x\) is:
+The transformation applied to the NO₂ concentration data (x) is:
 
-\[
-z = x + a_r \sin(b_r x)
-\]
+**z = x + a_r sin(b_r x)**
 
 The parameters are derived from the university roll number.
 
-### 🎓 Roll Number: **102303787**
+- 🎓 **Roll Number:** `102303773`
 
-\[
-a_r = 0.5 \times (r \bmod 7)
-\]
+**a_r** = 0.5 × (r mod 7)  
+**b_r** = 0.3 × ((r mod 5) + 1)
 
-\[
-b_r = 0.3 \times ((r \bmod 5) + 1)
-\]
+✅ The values of **(a_r)** and **(b_r)** are **computed programmatically** in the code, ensuring **reproducibility** and **strict adherence** to the assignment guidelines.
 
-✅ The values of \(a_r\) and \(b_r\) are computed **programmatically** in the code, ensuring **reproducibility** and **strict adherence** to the assignment guidelines.
 
 ---
 
