@@ -14,7 +14,7 @@ The transformation applied to the NO₂ concentration data (x) is:
 
 The parameters are derived from the university roll number.
 
-- 🎓 **Roll Number:** `102303773`
+- 🎓 **Roll Number:** `102303787`
 
 **a_r** = 0.5 × (r mod 7)  
 **b_r** = 0.3 × ((r mod 5) + 1)
