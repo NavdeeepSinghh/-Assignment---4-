@@ -63,12 +63,11 @@ The final comparison includes:
 - 📌 True PDF estimated from real transformed data  
 - 📌 Learned PDF estimated from GAN-generated samples  
 
-### 📊 Final PDF Comparison Plot
-**PDF Learning using GAN**
+
 ### 📊 Final PDF Comparison Plot
 **PDF Learning using GAN**
 
-![PDF Learning using GAN](images/GAN_Estimated_pmf.png)
+![PDF Learning using GAN](GAN_Estimated_pmf.png)
 
 
 ---
